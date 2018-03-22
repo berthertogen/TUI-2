@@ -1,7 +1,7 @@
 ﻿namespace Optimization
 {
-    public interface Message
+    public abstract class Message
     {
-        string DoSomthingOnMessage();
+        public abstract string DoSomthingOnMessage();
     }
 }

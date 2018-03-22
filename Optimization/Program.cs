@@ -6,9 +6,9 @@ namespace Optimization
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Messages.DiplayMessages(new MessageA()));
-            Console.WriteLine(Messages.DiplayMessages(new MessageB()));
-            Console.WriteLine(Messages.DiplayMessages(new MessageC()));
+            Console.WriteLine(Messages.DiplayMessages(new MessageACreator().Create()));
+            Console.WriteLine(Messages.DiplayMessages(new MessageBCreator().Create()));
+            Console.WriteLine(Messages.DiplayMessages(new MessageCCreator().Create()));
             Console.ReadLine();
         }
 

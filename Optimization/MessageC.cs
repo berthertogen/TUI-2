@@ -4,6 +4,6 @@ namespace Optimization
 {
     public class MessageC : Message
     {
-        public string DoSomthingOnMessage() => "MyCustomMethodOnC";
+        public override string DoSomthingOnMessage() => "MyCustomMethodOnC";
     }
 }
