@@ -4,9 +4,6 @@ namespace Optimization
 {
     public class MessageA : Message
     {
-        public string MyCustomMethodOnA()
-        {
-            return "MyCustomMethodOnA";
-        }
+        public string DoSomthingOnMessage() => "MyCustomMethodOnA";
     }
 }

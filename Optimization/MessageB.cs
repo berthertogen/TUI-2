@@ -4,14 +4,9 @@ namespace Optimization
 {
     public class MessageB: Message
     {
-        public string MyCustomMethodOnB()
-        {
-            return "MyCustomMethodOnB";
-        }
+        public string DoSomthingOnMessage() 
+            => $"MyCustomMethodOnB en {SomeAdditionalMethodOnB()}";
 
-        public string SomeAdditionalMethodOnB()
-        {
-            return "SomeAdditionalMethodOnB";
-        }
+        string SomeAdditionalMethodOnB() => "SomeAdditionalMethodOnB";
     }
 }

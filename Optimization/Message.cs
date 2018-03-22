@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Optimization
+﻿namespace Optimization
 {
-    public class Message
+    public interface Message
     {
-
+        string DoSomthingOnMessage();
     }
 }
