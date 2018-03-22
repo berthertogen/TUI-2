@@ -6,7 +6,11 @@ namespace Optimization
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(Messages.DiplayMessages(new MessageA()));
+            Console.WriteLine(Messages.DiplayMessages(new MessageB()));
+            Console.WriteLine(Messages.DiplayMessages(new MessageC()));
+            Console.ReadLine();
         }
+
     }
 }
